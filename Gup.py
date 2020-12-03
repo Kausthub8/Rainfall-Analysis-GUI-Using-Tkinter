@@ -59,7 +59,7 @@ class Application(Frame):
       def show_stats(self):
           xstats, ystats = stats_columns(self.eFname.get(), self.eX.get())
           self.txtX.insert(INSERT, xstats)
-          self.txtY.inseet(INSERT, ystats)   
+          self.txtY.insert(INSERT, ystats)   
                        
          root = Tk()
 
